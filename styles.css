@@ -1,0 +1,307 @@
+
+body{
+  border-color: #f3ecd3;
+}
+/* Navigation Bar */
+
+.navbar{
+ background-color: #f3ecd3;
+ /* font-family: 'Permanent Marker', cursive; */
+ font-family: 'Special Elite', cursive;
+}
+
+
+
+/* #carouselExampleIndicators li { visibility: hidden; } */
+
+.carousel-indicators{visibility: hidden; }
+/* Welcome Section */
+
+
+/* Slide 1 Headings and Paragraph*/
+
+.slide1-header1{
+  position: absolute;
+  font-size: 3.5rem;
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  color: black;
+  white-space: nowrap;
+  margin-top: -80%;
+  margin-left: 40%;
+}
+
+.slide1-header2{
+  position: absolute;
+  font-size: 3.5rem;
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  color: black;
+  white-space: nowrap;
+  margin-top: -75%;
+  margin-left: 38%;
+}
+
+/* .slide1-paragraph{
+  position: absolute;
+  font-size: 2.5rem;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  margin-left: 52%;
+  margin-top: -55%;
+} */
+
+/* Slide 2 Heading and Paragraph */
+.header2{
+  position: absolute;
+  font-size: 3.5rem;
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  color: black;
+  margin-top: -85%;
+  margin-left: 90%;
+  width: 25%;
+}
+/* .slide2-paragraph{
+  position: absolute;
+  font-size: 2.5rem;
+  color: white;
+  margin-left: 50%;
+  margin-top: -47%;
+} */
+
+/*Pictures for Carosel Slides */
+
+/* Testimonials */
+
+
+/* .testimonial-header{
+  padding-bottom: 50px;
+  font-size: 4rem;
+  color: white;
+  font-family: Montserrat, serif;
+  font-weight: lighter;
+  position: relative;
+  text-align: center;
+} */
+
+/* About Us Section */
+#programs{
+  background-color: #f3ecd3;
+}
+
+.about-us{
+  background-color: #f3ecd3;
+  margin-top: -10%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+.about-title{
+  font-size: 4rem;
+  font-family: 'Special Elite', cursive;
+  color: black;
+  background-color: #f3ecd3;
+  font-weight: lighter;
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+}
+.about-info{
+  position: relative;
+  font-family: 'Special Elite', cursive;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+  padding-bottom: 50px;
+}
+
+/* Programs Section */
+
+.program-info{
+  color: white;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+}
+
+.program-header{
+  background-color: #ec823a;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.program-title{
+  padding-top: 50px;
+  font-size: 4rem;
+  color: white;
+  font-family: 'Special Elite', cursive;
+  font-weight: lighter;
+  position: relative;
+  text-align: center;
+}
+
+.program-paragraph{
+  padding-bottom: 40px;
+}
+
+
+.development-info{
+
+  color: #333333;
+  font-weight: 400;
+  background-color: #f3ecd3;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.card-title{
+  color: black;
+  font-size: 2vw;
+}
+.card-text{
+  color: #333333;
+  font-size: 1vw;
+}
+.bullets{
+  text-align: left;
+}
+
+.card-deck-row2{
+  padding-top: 50px;
+}
+/* Card images */
+.card-img-top{
+  height: 50%;
+}
+
+/* Bottom Contact */
+
+.bottom-contact{
+margin: -50px 0 30px;
+padding-top: 3%;
+padding-bottom: 3%;
+background-color: #ec823a;
+
+}
+.contact-heading{
+
+    padding: 30px 0 20px;
+    font-size: 4rem;
+    color: white;
+      font-family: 'Special Elite', cursive;
+    font-weight: lighter;
+    position: relative;
+    text-align: center;
+
+}
+
+
+
+.contact-form{
+  background-color: #f3ecd3;
+  float: left;
+  margin-left: 2%;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+/* Tablet Viewport */
+
+
+
+/* Small Screen Viewport */
+
+@media only screen and (max-width: 975px) {
+
+  .bbqtray{
+    height: 30rem;
+  }
+  .bbqtray2{
+    height: 30rem;
+  }
+
+
+  .slide1-header1{
+    position: absolute;
+    font-size: 1.8rem;
+    color: black;
+    font-weight: bold;
+    margin-top: -61%;
+    margin-left: 40%;
+
+}
+
+.slide1-header2{
+  position: absolute;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black;
+  /* white-space: nowrap; */
+  margin-top: -56%;
+  margin-left: 38%;
+}
+
+/* .slide1-paragraph{
+  visibility: hidden;
+} */
+
+.header2{
+  position: absolute;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin-top: -70%;
+  margin-left: 95%;
+}
+
+.slide2-paragraph{
+  visibility: hidden;
+}
+
+
+/* About us Section */
+.about-us{
+
+  margin-top: -12%;
+  background-color: #f3ecd3;
+}
+.about-title{
+  padding-top: 20px;
+  font-size: 9vw;
+  color: black;
+  font-family: 'Special Elite', cursive;
+}
+.about-info{
+  font-size: 2.5rem;
+  width: auto;
+  font-family: 'Special Elite', cursive;
+  padding-left: 10px;
+  margin-left: auto;
+  text-align: center;
+
+}
+
+.development-info{
+  font-size: 2.5rem;
+}
+
+.card-title{
+  font-size: 3.5rem;
+
+}
+.card-text{
+  font-size: 2.5rem;
+
+}
+
+.contact-form{
+  float: left;
+  margin-left: 15%;
+  padding-bottom: 5%;
+}
+
+
+}
