@@ -226,22 +226,22 @@ background-color: #ec823a;
 
   .slide1-header1{
     position: absolute;
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: black;
     font-weight: bold;
-    margin-top: -70%;
-    margin-left: 42%;
+    margin-top: -75%;
+    margin-left: 41%;
 
 }
 
 .slide1-header2{
   position: absolute;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
   color: black;
   /* white-space: nowrap; */
-  margin-top: -65%;
-  margin-left: 40%;
+  margin-top: -70%;
+  margin-left: 39%;
 }
 
 /* .slide1-paragraph{
